@@ -26,7 +26,7 @@ Currículo/portfólio online de Jackson Jean Pereira de Sousa, Analista de Infra
 
 ## Print do Site
 
-![Site Preview](img/profile-image.jpeg)
+![Site Preview]()
 
 ## Licença
 
