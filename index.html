@@ -1,253 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b5569682a4.js" crossorigin="anonymous"></script>
-    <title>Jackson Jean CV</title>
-
-    <!-- Google font  -->
+    <meta name="title" content="Jackson Jean Pereira de Sousa — Analista de Infraestrutura | IT Support Analyst">
+    <meta name="description" content="Analista de Infraestrutura e Suporte N2 com mais de 6 anos de experiência em ambientes corporativos de alta disponibilidade. Especializado em Microsoft 365, Active Directory, redes, Hyper-V e Field Service.">
+    <meta name="keywords" content="Analista de Infraestrutura, Suporte N2, Microsoft 365, Active Directory, Hyper-V, Field Service, IT Support, Redes, Windows Server">
+    <meta name="author" content="Jackson Jean Pereira de Sousa">
+    <meta property="og:title" content="Jackson Jean Pereira de Sousa — Analista de Infraestrutura">
+    <meta property="og:description" content="Analista de Infraestrutura e Suporte N2 com mais de 6 anos de experiência em ambientes corporativos de alta disponibilidade.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jacksonjeanps.github.io/jacksonjean.github.io/">
+    <meta property="og:image" content="https://jacksonjeanps.github.io/jacksonjean.github.io/img/profile-image.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jackson Jean Pereira de Sousa — Analista de Infraestrutura">
+    <meta name="twitter:description" content="Analista de Infraestrutura e Suporte N2 com mais de 6 anos de experiência em ambientes corporativos de alta disponibilidade.">
+<meta name="twitter:image" content="https://jacksonjeanps.github.io/jacksonjean.github.io/img/profile-image.jpeg">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Jackson Jean Pereira de Sousa — Analista de Infraestrutura</title>
 </head>
 <body>
-    <main class="resume-contents">
-        <section class="left-section">
-            <div class="left-section-contents">
-                <div class="profile">
-                    <img class="profile-image" src="img/profile-image.jpeg" alt="Profile image">
-                    <br>
-                    <br>
-                    <p class="name">Jackson Jean</p>
-                    <br>
-                    <p class="profession">Web Developer</p>
-                </div>
-                <div class="contact-info">
-                    <br>
-                    <p class="left-title">Contatos</p>
-                    <ul>
-                        <li><i class="fa fa-phone"></i><a href="https://wa.me/5583986390385" class="link-contact">+55 83 986390385</a>
-                        </li>
-                        <li><i class="fa fa-envelope"></i>jacksonjean01@gmail.com
-                        </li>
-                        <li><i class="fa fa-globe"></i>jacksonjeanps-dev.vercel.app/
-                        </li>
-                        <li><i class="fa fa-github"></i><a href="https://github.com/JacksonJeanPS" class="link-contact">JacksonJeanPS</a>
-                        </li>
-                        <li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/jackson-jean-p-a72350124/" class="link-contact">Jackson-Jean</a>
-                        </li>
-                        <li><i class="devaria-ico"></i><a href="https://devaria.com.br/perfil/5556" class="link-contact">Jackson Jean P Sousa</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills">
-                    <br>
-                    <p class="left-title">Skills</p>
-                    <ul>
-                        <li><p>Python3, Java</p></li>
-                        <li><p>JavaScript, Node.js</p></li>
-                        <li><p>HTML5 & CSS3</p></li>
-                        <li><p>Docker, MongoDB</p></li>
-                        <li><p>Git & GitHub</p></li>
-                        <li><p>Linux, Bash/Shell</p></li>
-                    </ul>
-                </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo claro/escuro">
+        <i class="fa-solid fa-moon" id="themeIcon"></i>
+    </button>
+
+    <main class="resume-container">
+        <aside class="sidebar">
+            <div class="sidebar-profile">
+                <img class="profile-image" src="img/profile-image.jpeg" alt="Foto de perfil de Jackson Jean">
+                <h1 class="name">Jackson Jean</h1>
+                <p class="profession">Analista de Infraestrutura | IT Support Analyst</p>
             </div>
-        </section>
 
-        <section class="right-section">
-            <div class="right-section-contents">
-                <!-- sobre mim -->
-                <section class="about gap">
-                    <div class="right-title">Sobre Mim</div>
-                    <p class="about-me-contents">
-                        Olá sou o Jackson.<br>
-                        <br>No início do ano de 2022, me encontrei em novas tecnologias do mercado, com aprendizado adquirido dia após dia. Possuo foco em desenvolvimento nas linguagens CSS, HTML, JavaScript, Python, React e Node.js. Estou apto a aprender novas tecnologias para ser um futuro Full Stack.
-                        
-                        Considero-me flexível, consistente em aprender uma nova linguagem e me adaptar a qualquer mudança. Estou pronto para superar qualquer desafio.
-                        <br><b>Competências:</b> comunicação, proativo, capacidade de resolver problemas, colaboração, organização, pense fora da caixa. 
-                    </p>
-                </section>      
-                <!-- fim sobre mim -->
+            <section class="sidebar-contact">
+                <h2 class="sidebar-title">Contato</h2>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-phone"></i><a href="https://wa.me/5583986390385" class="contact-link">83 98639-0385</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:jacksonjean01@gmail.com" class="contact-link">jacksonjean01@gmail.com</a></li>
+                    <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/jacksonjeanps/" class="contact-link">linkedin.com/in/jacksonjeanps</a></li>
+                    <li><i class="fa-brands fa-github"></i><a href="https://github.com/JacksonJeanPS" class="contact-link">github.com/JacksonJeanPS</a></li>
+                </ul>
+            </section>
 
-                <!-- experiencia -->
-                <section class="experience gap">
-                    <div class="right-title">Experiência</div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">Nexct - Orbitall</p>
-                            <p class="exp-time-period">2020-Present</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">Atendente de telemarketing</p>
-                            <p class="exp-desc">
-                                <br> Atendimento telefônico chat e voz para sanar dúvidas dos clientes, solucionar solicitações com qualidade e registrar as informações do atendimento.
-                                <br>
-                                <br><b>Competências:</b> Dinâmico · Proativo · Empatia · Cordial · Boa dicção · Fluência verbal · Noções de informática · Pacote office · Gestão de relacionamento com o cliente (CRM) · Atendimento ao cliente.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">INSS</p>
-                            <p class="exp-time-period">2017-2018</p>
-                        </div>
-                        <div class="exp-right">
-                            <p class="exp-position">Estagiário</p>
-                            <p class="exp-desc">
-                                Acompanhar a elaboração de relatórios, Acompanhar o atendimento ao cliente, Ajudar a enumerar folhas de processos, Ajudar no atendimento de telefone e de publico, Ajudar no controle de entrada e saída de materiais, Atendimento ao público.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <!-- fim experiencia -->
+            <section class="sidebar-skills">
+                <h2 class="sidebar-title">Skills</h2>
+                <div class="skills-tags">
+                    <span class="skill-tag">Windows Server</span>
+                    <span class="skill-tag">Windows 11</span>
+                    <span class="skill-tag">Microsoft 365</span>
+                    <span class="skill-tag">Office 365</span>
+                    <span class="skill-tag">Active Directory</span>
+                    <span class="skill-tag">Microsoft Entra ID</span>
+                    <span class="skill-tag">Azure AD</span>
+                    <span class="skill-tag">Hyper-V</span>
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">Power Query</span>
+                    <span class="skill-tag">KACE SMA</span>
+                    <span class="skill-tag">Service Desk</span>
+                    <span class="skill-tag">ITIL</span>
+                    <span class="skill-tag">Field Service</span>
+                    <span class="skill-tag">Desktop Support</span>
+                    <span class="skill-tag">Technical Support</span>
+                    <span class="skill-tag">Incident Management</span>
+                    <span class="skill-tag">Problem Management</span>
+                    <span class="skill-tag">Cisco</span>
+                    <span class="skill-tag">Fortinet</span>
+                    <span class="skill-tag">TCP/IP</span>
+                    <span class="skill-tag">DHCP</span>
+                    <span class="skill-tag">DNS</span>
+                    <span class="skill-tag">VPN</span>
+                    <span class="skill-tag">Firewall</span>
+                    <span class="skill-tag">VLAN</span>
+                    <span class="skill-tag">LGPD</span>
+                    <span class="skill-tag">ISO 27001</span>
+                    <span class="skill-tag">PowerShell</span>
+                    <span class="skill-tag">Excel Avançado</span>
+                    <span class="skill-tag">Customer Experience</span>
+                </div>
+            </section>
+        </aside>
 
-                <!-- formação academica-->
-                <section class="education gap">
-                    <div class="right-title">Formação Academica</div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">UEPB</p>
-                            <p class="educationp-time-period">2018-2023</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">Licenciatura Física</p>
-                            <p class="education-desc">
-                                Incompleto, curso de graduação.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">Instituto Federal da Paraíba</p>
-                            <p class="educationp-time-period">2018-2020</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">Manutenção e Suporte em Informática</p>
-                            <p class="education-desc">
-                                Curso tecnico de Manutenção e Suporte em Informática.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">E.E.E.F.M Major Veneziano Vital do Rego</p>
-                            <p class="educationp-time-period">2010-2018</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">Ensino médio</p>
-                            <p class="education-desc">
-                                Finalização de ano letivo.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <!-- fim formação academica-->
+        <section class="main-content">
+            <section class="section summary">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="summary-text">
+                    Analista de Infraestrutura e Suporte N2 com mais de 6 anos de experiência em ambientes corporativos de alta disponibilidade, especializado em implantação de infraestrutura, suporte Microsoft, redes, Active Directory, Office 365, Hyper-V e Field Service. Experiência em projetos para Bradesco, Banco Inter, Caixa Econômica Federal e grandes operações corporativas, atuando na implantação de ambientes críticos, administração de infraestrutura, resolução de incidentes complexos e melhoria contínua de processos utilizando práticas ITIL, LGPD e ISO 27001.
+                </p>
+            </section>
 
-                <!-- cursos -->
-                <section class="awards gap">
-                    <div class="right-title">Cursos</div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">Digital Innovation One Inc. </p>
-                            <p class="awards-time-period">Outubro de 2022</p>
-                            <p>
-                                <a href="https://www.dio.me/certificate/0C61035F/share">
-                                    <img src="https://hermes.digitalinnovation.one/certificates/cover/0C61035F.jpg" height="150px">
-                                </a>
-                            </p>
+            <section class="section experience">
+                <h2 class="section-title">Experiência Profissional</h2>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="exp-header">
+                            <h3 class="exp-role">Analista de Infraestrutura / Suporte N2</h3>
+                            <span class="exp-company">Necxt</span>
+                            <span class="exp-period">2025 — Atual</span>
                         </div>
-                        <div class="awards-right">
-                            <p class="awards-name">HTML Web Developer</p>
-                            <p class="awards-desc">
-                                Curso sobre programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript para iniciar sua trajetória profissional em desenvolvimento web front-end.
-                            </p>
-                        </div>
+                        <ul class="exp-bullets">
+                            <li>Implantação de infraestrutura da operação Bradesco (servidores Dell, firewalls, Hyper-V, redes, montagem de rack, imagens Windows)</li>
+                            <li>Administração de Microsoft 365 e Active Directory, garantindo disponibilidade e segurança dos ambientes</li>
+                            <li>Troubleshooting avançado em infraestrutura e suporte a telefonia Genesys/Avaya</li>
+                            <li>Planejamento de recursos com foco em redução de custos e otimização de processos</li>
+                        </ul>
+                        <div class="exp-tech">Tecnologias: Windows Server, Microsoft 365, Hyper-V, Active Directory, KACE, Genesys, Avaya, Firewalls, Dell, TCP/IP, VLAN</div>
                     </div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">Stefanini Group</p>
-                            <p class="awards-time-period">Outubro de 2022</p>
-                            <p>
-                                <a href="https://stefanini.konviva.com.br/action/rest/curso/conteudo/certificado/2352442/5527/pt">
-                                    <img src="img/certificado_Ws9TqA4_page-0001.jpg" height="150px">
-                                </a>
-                            </p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="exp-header">
+                            <h3 class="exp-role">Analista de Field Service</h3>
+                            <span class="exp-company">Necxt</span>
+                            <span class="exp-period">2023 — 2025</span>
                         </div>
-                        <div class="awards-right">
-                            <p class="awards-name">EXCEL 2013 - CURSO INTERMEDIÁRIO</p>
-                            <p class="awards-desc">O Excel Intermediário serve para controlar e organizar as informações, sendo um excelente aliado no cumprimento das rotinas e no melhor aproveitamento do tempo.
-                                O aluno aprenderá a utilizar recursos intermediários de planilhas, gráficos funções, fórmulas, tabelas e gráficos dinâmicos.                              
-                            </p>
-                        </div>
+                        <ul class="exp-bullets">
+                            <li>Liderança em implantações para Banco Inter, Caixa Econômica Federal e Banco Olé, garantindo entrega dentro dos prazos e padrões de qualidade</li>
+                            <li>Manutenção e configuração de centenas de equipamentos em ambientes corporativos críticos</li>
+                            <li>Aplicação da metodologia 5S, documentação técnica e construção de base de conhecimento</li>
+                            <li>Atendimento a incidentes críticos com resolução rápida e comunicação efetiva com stakeholders</li>
+                        </ul>
+                        <div class="exp-tech">Tecnologias: Windows, Office 365, Entra ID, Active Directory, VLAN, ITSM, ServiceAide, CA Service Desk</div>
                     </div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">Devaria</p>
-                            <p class="awards-time-period">Agosto de 2022</p>
-                            <p>
-                                <a href="https://devaria.com.br/perfil/5556">
-                                    <img src="img/perfil-public-devaria.png" height="150px">
-                                </a>
-                            </p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="exp-header">
+                            <h3 class="exp-role">Customer Experience Specialist</h3>
+                            <span class="exp-company">Banco Inter</span>
+                            <span class="exp-period">2020 — 2023</span>
                         </div>
-                        <div class="awards-right">
-                            <p class="awards-name">Desevolvimento Web</p>
-                            <p class="awards-desc">
-                                Curso sobre todas as camadas dos sistemas, backend e frontend, e poderá desenvolver sistemas completos e integrados.
-                                Conceitos de sistemas, Infraestrutura, banco de dados, versionamento de código, desenvolvimento web, node.js backend, react,js frontend, javascript.
-                            </p>
-                        </div>
+                        <ul class="exp-bullets">
+                            <li>Atendimento especializado a operações financeiras, incluindo Conta Digital, Cartão e Contestação de Fraude</li>
+                            <li>Apoio à área de Investimentos com orientação técnica e resolução de demandas dos clientes</li>
+                            <li>Contribuição para a melhoria da experiência do cliente por meio de atendimento ágil e preciso</li>
+                        </ul>
                     </div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">Fundação Getulio Vargas</p>
-                            <p class="awards-time-period">Junho de 2022</p>
-                            <p>
-                                <a href="https://drive.google.com/file/d/1RnYkbmmzm8WjBMaGNd5SA25m0RFxlmUF/view">
-                                    <img src="img/Fundamentos da Gestão de TI.jpg" height="150px">
-                                </a>
-                            </p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-name">FUNDAMENTOS DA GESTÃO DE TI</p>
-                            <p class="awards-desc">
-                                O curso Fundamentos da Gestão de TI apresenta e discute o papel da tecnologia nos negócios, proporcionando ampla visão sobre como os processos de TI influenciam nos resultados de uma empresa.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                            <p class="awards-company-name">Stefanini Group</p>
-                            <p class="awards-time-period">Junho de 2022</p>
-                            <p>
-                                <a href="https://stefanini.konviva.com.br/action/rest/curso/conteudo/certificado/807405/2452/pt">
-                                    <img src="img/certificado_2w75nSX_page-0001.jpg" height="150px">
-                                </a>
-                            </p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-name">SEGURANÇA DA INFORMAÇÃO</p>
-                            <p class="awards-desc">Apresentação, O que acontece no mundo?, O que é a Segurança da Informação? ISO 27001, Elementos de Segurança da Informação, CID (CIA), Ameaças, incidentes de Segurança causam... Fontes de vulnerabilidade, Phishing, Framework, Política, Responsável pelo ISMS, Fluxo Procedimentos Disciplinar, Como se proteger.                              
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <!-- fim cursos -->
-            </div>
+                </div>
+            </section>
+
+            <section class="section certifications">
+                <h2 class="section-title">Certificações</h2>
+                <ul class="cert-list">
+                    <li><i class="fa-solid fa-certificate"></i> Google IT Support Professional</li>
+                    <li><i class="fa-solid fa-certificate"></i> Fortinet NSE1 — Cyber Threat Management</li>
+                    <li><i class="fa-solid fa-certificate"></i> Cybersecurity Awareness CAPC</li>
+                    <li><i class="fa-solid fa-certificate"></i> Introduction to Cybersecurity</li>
+                </ul>
+            </section>
+
+            <section class="section education">
+                <h2 class="section-title">Educação</h2>
+                <div class="edu-item">
+                    <h3 class="edu-degree">Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="edu-school">UniFatecie</p>
+                    <p class="edu-period">2026 — 2028 (em andamento)</p>
+                </div>
+                <div class="edu-item">
+                    <h3 class="edu-degree">Técnico em Manutenção e Suporte em Informática</h3>
+                    <p class="edu-school">IFPB</p>
+                    <p class="edu-period">2019 — 2020</p>
+                </div>
+            </section>
         </section>
     </main>
-    <div class="print">
-        <button onclick="window.print()"><i class="fa-solid fa-print"></i>  Imprimir</button>
-    </div>
-    <footer>Criado por Jackson Jean em 2022</footer>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Jackson Jean Pereira de Sousa</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
